@@ -9,6 +9,7 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Display
 debug.sf.enable_hwc_vds=1
+debug.performance.tuning=1
 
 # CNE
 persist.vendor.cne.feature=1
