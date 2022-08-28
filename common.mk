@@ -303,6 +303,9 @@ PRODUCT_PACKAGES += \
     SecureElement \
     NfcNci \
     Tag
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf
 endif
 ifeq ($(OPLUS_DEVICE_USES_SN100X_NFC),true)
 PRODUCT_SOONG_NAMESPACES += \
