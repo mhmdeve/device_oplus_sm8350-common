@@ -82,4 +82,7 @@
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
+
+    <!-- Shows the required view for Screen Off Udfps -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
 </resources>
