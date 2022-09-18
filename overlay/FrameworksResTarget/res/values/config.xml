@@ -85,4 +85,14 @@
 
     <!-- Shows the required view for Screen Off Udfps -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
+
+    <!-- Whether device has VOOC charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
+    <!-- Paths to OEM Fast charging status file -->
+    <string name="config_oemFastChargerStatusPaths" translatable="false">/sys/devices/virtual/oplus_chg/battery/voocchg_ing</string>
+
+    <!-- Charging info current divider, if needed -->
+    <integer name="config_currentInfoDivider" translatable="false">1</integer>
+
 </resources>
